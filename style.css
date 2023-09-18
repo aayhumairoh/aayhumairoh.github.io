@@ -1,0 +1,26 @@
+body {
+  min-height: 2000px;
+}
+.jumbotron {
+  padding: 2rem 1rem;
+}
+.baqi {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.carousel-item {
+  background-color: white;
+}
+section {
+  padding-top: 3rem;
+}
+.text-about {
+  text-align: justify;
+}
+.co {
+  font-weight: bold;
+  color: white;
+}
+.work-desc {
+  color: white;
+}
