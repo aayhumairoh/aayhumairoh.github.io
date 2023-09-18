@@ -28,6 +28,9 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#experiences">Experiences</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#project">Projects</a>
             </li>
             <li class="nav-item">
@@ -39,7 +42,7 @@
     </nav>
     <!-- end navbar -->
     <!-- jumbotron -->
-    <section id="home" class="jumbotron text-center mb-5 p-5" style="background-image: url('assets/image.png')">
+    <section id="home" class="jumbotron text-center mb-3 p-5" style="background-image: url('assets/image.png')">
       <img src="assets/AAY-PAS-PHOTO.jpg" alt="pas foto" width="150" class="rounded-circle" />
       <h1 style="color: white" class="display-4">Aay Humairoh</h1>
       <p style="color: white" class="lead">Front-end Programmer</p>
@@ -48,7 +51,7 @@
     <!-- about -->
     <section class="about mb-5" id="about">
       <div class="container">
-        <div class="row text-center mb-4 mt-4">
+        <div class="row text-center mb-2">
           <div class="col">
             <h2>About Me</h2>
             <p>aayhumairoh29@gmail.com || 085846740743 || Cirebon, West Java</p>
@@ -67,7 +70,7 @@
     </section>
     <!-- end about -->
     <!-- working experiences -->
-    <h2 class="text-center mb-5">Working Experience</h2>
+    <h2 id="experiences" class="text-center mb-5">Working Experience</h2>
     <section class="experiences p-5" id="experiences" style="background-image: url('assets/image.png')">
       <div class="cointainer text-center">
         <h5 class="text-light">Front-end Programmer || November 2021 - March 2023</h5>
@@ -89,9 +92,9 @@
         </div>
         <div class="row">
           <div class="col">
-            <div id="carouselExampleFade" class="carousel slide carousel-fade">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active" data-bs-interval="3000">
                   <img src="assets/BAQI.png" class="d-block w-100" alt="project1-BAQI" />
                   <div class="carousel-caption">
                     <a class="detail" target="_blank" href="https://play.google.com/store/apps/details?id=com.gmjgloben.baqi&hl=en-ID">
@@ -99,7 +102,7 @@
                     </a>
                   </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="3000">
                   <img src="assets/QURBANY.png" class="d-block w-100" alt="project2-QURBANY" />
                   <div class="carousel-caption">
                     <a class="detail" target="_blank" href="https://play.google.com/store/apps/details?id=com.gmjqurbanyapp&hl=en-ID">
@@ -108,14 +111,12 @@
                   </div>
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              </a>
+              <a class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-              </button>
+              </a>
             </div>
           </div>
         </div>
